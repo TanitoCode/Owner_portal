@@ -350,11 +350,11 @@
 
         <div class="hero">
           <div class="hero-label">Ingreso neto estimado · Septiembre 2026</div>
-          <div class="hero-figure">35,230<span class="cur">MXN</span></div>
+          <div class="hero-figure">53,730<span class="cur">MXN</span></div>
           <div class="hero-sub">
             <span class="pill"><span class="dot"></span> Ocupación 82%</span>
             <span>Próxima liquidación <b>5 de octubre</b></span>
-            <span>Tarifa promedio <b>$3,744</b></span>
+            <span>Tarifa promedio <b>$4,045</b></span>
           </div>
         </div>
 
@@ -407,12 +407,12 @@
 
         <div class="section-title">Desglose de Septiembre 2026</div>
         <div class="card bd">
-          <div class="bd-row"><span class="bd-label">Ingreso bruto</span><span>$75,240</span></div>
-          <div class="bd-row"><span class="bd-label">Comisiones OTA (Airbnb / Booking)</span><span class="neg">−$9,720</span></div>
-          <div class="bd-row"><span class="bd-label">Fee de gestión Costa Sol (18%)</span><span class="neg">−$11,790</span></div>
+          <div class="bd-row"><span class="bd-label">Ingreso bruto</span><span>$101,120</span></div>
+          <div class="bd-row"><span class="bd-label">Comisiones OTA (Airbnb / Booking)</span><span class="neg">−$13,035</span></div>
+          <div class="bd-row"><span class="bd-label">Fee de gestión Costa Sol (18%)</span><span class="neg">−$15,855</span></div>
           <div class="bd-row"><span class="bd-label">Limpieza (25 noches × $600)</span><span class="neg">−$15,000</span></div>
           <div class="bd-row"><span class="bd-label">Amenidades</span><span class="neg">−$3,500</span></div>
-          <div class="bd-row total"><span class="bd-label">Neto para ti</span><span>$35,230</span></div>
+          <div class="bd-row total"><span class="bd-label">Neto para ti</span><span>$53,730</span></div>
         </div>
 
         <div class="section-title">Origen de las reservas</div>
@@ -444,12 +444,12 @@
             <button class="btn" id="dlBtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12m0 0l-4-4m4 4l4-4M4 21h16"/></svg> Descargar PDF</button>
           </div>
           <div class="bd" style="padding:8px 0 0;">
-            <div class="bd-row"><span class="bd-label">Ingreso bruto (5 reservas)</span><span>$75,240</span></div>
-            <div class="bd-row"><span class="bd-label">Comisiones de canales</span><span class="neg">−$9,720</span></div>
-            <div class="bd-row"><span class="bd-label">Gestión Costa Sol</span><span class="neg">−$11,790</span></div>
+            <div class="bd-row"><span class="bd-label">Ingreso bruto (5 reservas)</span><span>$101,120</span></div>
+            <div class="bd-row"><span class="bd-label">Comisiones de canales</span><span class="neg">−$13,035</span></div>
+            <div class="bd-row"><span class="bd-label">Gestión Costa Sol</span><span class="neg">−$15,855</span></div>
             <div class="bd-row"><span class="bd-label">Limpieza (25 noches × $600)</span><span class="neg">−$15,000</span></div>
             <div class="bd-row"><span class="bd-label">Amenidades</span><span class="neg">−$3,500</span></div>
-            <div class="bd-row total"><span class="bd-label">Total a transferir</span><span>$35,230</span></div>
+            <div class="bd-row total"><span class="bd-label">Total a transferir</span><span>$53,730</span></div>
           </div>
         </div>
 
@@ -478,18 +478,18 @@
 
   // ---------- data (ejemplo) ----------
   var reservas = [
-    {name:"Ana & Lucas Ferreyra", chan:"airbnb", ci:"3 sep", co:"7 sep", nights:4, amt:16560, up:false},
-    {name:"Michael Chen", chan:"booking", ci:"9 sep", co:"12 sep", nights:3, amt:11520, up:false},
-    {name:"Familia Rossi", chan:"airbnb", ci:"14 sep", co:"19 sep", nights:5, amt:21240, up:false},
-    {name:"Sophie Laurent", chan:"directo", ci:"21 sep", co:"24 sep", nights:3, amt:10980, up:false},
-    {name:"James & Kate Doyle", chan:"booking", ci:"26 sep", co:"30 sep", nights:4, amt:14940, up:false},
-    {name:"Valentina Ortiz", chan:"airbnb", ci:"4 oct", co:"8 oct", nights:4, amt:16920, up:true},
-    {name:"Hiroshi Tanaka", chan:"directo", ci:"11 oct", co:"15 oct", nights:4, amt:15840, up:true}
+    {name:"Ana & Lucas Ferreyra", chan:"airbnb", ci:"3 sep", co:"7 sep", nights:4, amt:22240, up:false},
+    {name:"Michael Chen", chan:"booking", ci:"9 sep", co:"12 sep", nights:3, amt:15480, up:false},
+    {name:"Familia Rossi", chan:"airbnb", ci:"14 sep", co:"19 sep", nights:5, amt:28560, up:false},
+    {name:"Sophie Laurent", chan:"directo", ci:"21 sep", co:"24 sep", nights:3, amt:14760, up:false},
+    {name:"James & Kate Doyle", chan:"booking", ci:"26 sep", co:"30 sep", nights:4, amt:20080, up:false},
+    {name:"Valentina Ortiz", chan:"airbnb", ci:"4 oct", co:"8 oct", nights:4, amt:22750, up:true},
+    {name:"Hiroshi Tanaka", chan:"directo", ci:"11 oct", co:"15 oct", nights:4, amt:21290, up:true}
   ];
   var chanLabel = {airbnb:"Airbnb", booking:"Booking.com", directo:"Directo"};
   var months6 = [
     {m:"Abr", v:37800},{m:"May", v:44640},{m:"Jun", v:49680},
-    {m:"Jul", v:54180},{m:"Ago", v:47160},{m:"Sep", v:35230}
+    {m:"Jul", v:54180},{m:"Ago", v:47160},{m:"Sep", v:53730}
   ];
   var mix = [
     {name:"Airbnb", pct:58, color:"linear-gradient(90deg,#e8615a,#c8433c)"},
